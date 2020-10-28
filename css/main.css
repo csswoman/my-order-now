@@ -9689,14 +9689,24 @@ img {
   max-width: 100%;
 }
 
-a:hover {
+a:hover, .btn-link:hover {
   text-decoration: none;
+}
+
+.btn.btn-primary {
+  font-weight: 500;
+  color: white;
 }
 
 header {
   background: #fff;
   padding: 10px 0;
   box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 header h1 {
   font-size: 24px;
@@ -9738,4 +9748,21 @@ header .profile-options-modal .profile-options-list li a svg {
   width: 18px;
   text-align: center;
   margin-right: 5px;
+}
+
+.main {
+  padding-top: 80px;
+}
+
+.search-container {
+  padding-top: 30px;
+}
+.search-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 4px;
 }
