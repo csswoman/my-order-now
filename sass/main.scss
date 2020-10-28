@@ -83,25 +83,25 @@ header {
             color: $primary;
         }
     }
+}
 
-    .profile-options-modal {
-        .profile-options-list {
-            padding: 0;
-            margin: 0;
-            list-style: none;
+.profile-options-modal {
+    .profile-options-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
 
-            li {
-                a {
-                    display: block;
-                    padding: 10px 0;
-                    color: $black-secondary;
+        li {
+            a {
+                display: block;
+                padding: 10px 0;
+                color: $black-secondary;
 
-                    svg {
-                        display: inline-block;
-                        width: 18px;
-                        text-align: center;
-                        margin-right: 5px;
-                    }
+                svg {
+                    display: inline-block;
+                    width: 18px;
+                    text-align: center;
+                    margin-right: 5px;
                 }
             }
         }
@@ -211,7 +211,7 @@ header {
                     margin: 0;
                     font-weight: 300;
                     color: $black-secondary;
-                    
+
                     span {
                         font-size: 13px;
                         margin-right: 3px;
